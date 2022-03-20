@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "why_not_pyweek_33"
+version = "0.1.0"
+description = "Entry for PyWeek 33"
+authors = ["Eric Palakovich Carr <carreric@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pyxel = "^1.6.9"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+mypy = "^0.941"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
